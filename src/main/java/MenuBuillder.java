@@ -6,9 +6,9 @@ public class MenuBuillder {
 
     public void mainManu(){
         System.out.println("Main menu :> ");
-        System.out.println(" 1 :> Show all house stufs ");
-        System.out.println(" 2 :> Find by type >>> ");
-        System.out.println(" 3 :> CHoose type and add >>> ");
+        System.out.println(" 1 :> Show all house stufs >> ");
+        System.out.println(" 2 :> Find by type >> ");
+        System.out.println(" 3 :> Choose type and add >> ");
         System.out.println(" 8 :> Exit ");
 
         System.out.println("Enter position :> ");
@@ -18,9 +18,6 @@ public class MenuBuillder {
         System.out.println("Enter your type number:");
     }
 
-    public void typeManyEnter(){
-        System.out.println("Press 8 to end:");
-    }
 
     public int menuTotalPowerEnter(){
         int visitorPrice = 0;
