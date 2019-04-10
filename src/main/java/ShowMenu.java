@@ -30,14 +30,9 @@ public class ShowMenu {
                     creator.getByTypeNumber(item);
                     break;
                 case 3:
-                   // creator.showByInside();
-                    break;
-                case 6:
-                   /* menu.enterPriceMenu();
-                    price = menu.menuTotalPriceEnter();
-                    creator.showByPrice(price);*/
-                    break;
-                case 7:
+                   // menu.typeEnter();
+                    creator.addData();
+                    creator.showSelectData();
                     break;
                 case 8:
                     exit = true;
