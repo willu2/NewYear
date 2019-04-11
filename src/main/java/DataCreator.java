@@ -37,6 +37,8 @@ public class DataCreator {
                       printItemList(entity);
         }
      }
+
+    //inside menu and data add !refactor
     public void addData(){
         boolean exit = false;
         do {
@@ -69,6 +71,7 @@ public class DataCreator {
          }
         }
 
+    //adding data to main db
     private void pullShopDb(){
         items = new BaseOfItems();
         for (int i = 0; i < DecorType.values().length; i++) {
